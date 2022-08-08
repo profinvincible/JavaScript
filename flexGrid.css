@@ -1,0 +1,18 @@
+@keyframes ijeoma {
+    0%  { background-image: url(./image/pixel.jpg);}
+    25% { background-image: url(./image/pixell.jpg);}
+    50% { background-image: url(./image/pixelu.jpg);}
+    100% { background-image: url(./image/pixelus.jpg);}
+}
+
+
+div {
+    width: 1000px;
+    height: 600px;
+    background-image: url(./image/pixel.jpg);
+    animation-name: ijeoma;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+
+}

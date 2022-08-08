@@ -1,0 +1,87 @@
+// @use "style" as *;
+// @use 'font' as *;
+
+    
+// .h1Font {
+//     @include h1fonts;
+// }
+
+// $fontsize: 30px;
+// $fontweight: 50rem;
+
+
+
+
+// body {
+//     background-color: $bgcolor;
+//     color: $textcolor;
+//     font-size: $fontsize;
+// }
+
+// $bgcolor: red;
+
+// h1 {
+//     color: pink;
+// }
+
+
+// .come {
+//     color: $bgcolor;
+// }
+
+// h1 {
+//     color: $prycolor
+// }
+
+// h2 {
+//     font-size: $fontsize;
+//     font-weight: $fontweight;
+//      font-family: sans-serif;
+// }
+
+@use "tooo" as *;
+@use "markup" as *;
+
+
+.h2fonts {
+    @include h2fonts;
+}
+
+
+
+$fontsize: 30px;
+$fontweight: 50rem;
+
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+}
+
+
+h2 {
+    color: $seccolor;
+}
+
+.love {
+    background-color: $seccolor;
+    color: $prycolor;
+}
+
+nav .tense {
+    
+    display: flex;
+    
+
+    li{
+        margin: 50px;
+        list-style: non;
+    }
+}
+
+
+.permit {
+
+    display: flex;
+}
